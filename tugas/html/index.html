@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas Form</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="box">
+      <form class="form" action="./index.html" method="post">
+        <h1>Kotak Saran</h1>
+        <div class="inputBox">
+          <input type="text" name="nama" required="required" />
+          <label>Nama Lengkap</label>
+          <div class="line"></div>
+        </div>
+        <div class="inputBox">
+          <input type="email" name="email" required="required" />
+          <label>Alamat Email</label>
+          <div class="line"></div>
+        </div>
+        <div class="textArea">
+          <label>Beri Saran</label>
+          <textarea required="required"></textarea>
+        </div>
+        <input type="submit" name="kirim" value="Kirim" />
+      </form>
+    </div>
+  </body>
+</html>
