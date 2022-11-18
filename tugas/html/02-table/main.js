@@ -21,8 +21,6 @@ let dataFav = [
 
 let judul = ["Favorite", "Orang"];
 let table = document.getElementById("myTable");
-let judulbgt = document.getElementById("judul");
-judulbgt.innerHTML = judul[0];
 
 buildTable = (data) => {
   for (let i = 0; i < data.length; i++) {
